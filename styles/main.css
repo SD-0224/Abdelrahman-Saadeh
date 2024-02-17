@@ -1,0 +1,99 @@
+.Logos{
+  width: 100%;
+  
+height: 40%;
+  object-fit:cover;
+
+}
+.star{
+  color:orange;
+
+}
+.heart-icon{
+  color: var(--heart-color);
+vertical-align: middle;
+}
+.Web-topics{
+  color: var(--brand-primary);
+font-size: 1.2rem;
+text-decoration: none;
+
+}
+.moon-shape{
+vertical-align:middle;
+}
+
+.head-buttons{
+  background-color:var(--bg_default);
+font-weight: 400;
+border-style: solid;
+border-color: rgba(170, 169, 169, 0.5);
+border-radius: 5px;
+border-width: 1px;
+font-size: 1.1rem;
+width: 150px;
+padding: 8px;
+}
+
+.welcome-message{
+  color: var(--brand-secondary);
+  font-size: 2.2rem;
+ font: weight 700px;
+ margin-bottom: 2px;
+ margin: 0;
+
+}
+.welcome-descrip{
+  font-size: 1.1rem;
+ margin-top: 1px;
+}
+.search-icon{
+  background-color: var(--bg_default);
+  padding: 0.6rem;
+}
+.search-bar{
+  border: none;
+  padding-left: 0.5rem;
+  flex:1;
+}
+.drop-down{
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: rgba(170, 169, 169, 0.5);
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: var(--bg_default);
+  width: 10rem;
+}
+.course-card{
+
+  background-color:var(--bg_default);
+  border-radius: 1rem;
+padding: 0.1rem;
+
+}
+
+.course-title{
+font-size: 1.1rem;
+font-weight: bold;
+margin: 0;
+
+
+}
+
+.course-descrip{
+  align-items: center;
+
+}
+
+.course-author{
+  font-size: 0.8 rem;
+color: rgb(123, 121, 121);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
