@@ -1,98 +1,148 @@
-.Logos{
+.Logos {
   width: 100%;
-  
-height: 40%;
-  object-fit:cover;
-
+  height: 135px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
-.star{
-  color:orange;
 
+
+
+.star {
+  color: orange;
 }
-.heart-icon{
+
+.heart-icon {
   color: var(--heart-color);
+  vertical-align: middle;
+}
+
+.Web-topics {
+  color: var(--brand-primary);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.moon-shape {
+
 vertical-align: middle;
 }
-.Web-topics{
-  color: var(--brand-primary);
-font-size: 1.2rem;
-text-decoration: none;
+
+.head-buttons {
+  background-color: var(--bg_default);
+  font-weight: 400;
+  border-style: solid;
+  border-color: rgba(170, 169, 169, 0.5);
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: 1.1rem;
+padding: 0.5rem;
+width: 9rem;
 
 }
-.moon-shape{
-vertical-align:middle;
-}
 
-.head-buttons{
-  background-color:var(--bg_default);
-font-weight: 400;
-border-style: solid;
-border-color: rgba(170, 169, 169, 0.5);
-border-radius: 5px;
-border-width: 1px;
-font-size: 1.1rem;
-width: 150px;
-padding: 8px;
-}
-
-.welcome-message{
+.welcome-message {
   color: var(--brand-secondary);
   font-size: 2.2rem;
- font: weight 700px;
- margin-bottom: 2px;
- margin: 0;
+  font: weight 700px;
+  margin-bottom: 2px;
+  margin: 0;
+}
+
+.welcome-descrip {
+  font-size: 1.1rem;
+  margin-top: 1px;
+  font-weight: normal;
+}
+
+
+
+
+
+.search-icon {
+padding: 0.6rem;
+  position: absolute;
+  margin-left: 0.3rem;
+  
+  
+ 
 
 }
-.welcome-descrip{
-  font-size: 1.1rem;
- margin-top: 1px;
-}
-.search-icon{
+
+.search-bar {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding-left: 2.8rem;
+  flex: 1;
+  border-color: rgba(170, 169, 169, 0.5);
+  border-width: 1px;
   background-color: var(--bg_default);
-  padding: 0.6rem;
+  
 }
-.search-bar{
-  border: none;
-  padding-left: 0.5rem;
-  flex:1;
-}
-.drop-down{
+
+.drop-down {
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
   border: solid;
   border-color: rgba(170, 169, 169, 0.5);
-  border-radius: 5px;
   border-width: 1px;
   background-color: var(--bg_default);
   width: 10rem;
+  font-size: 12px;
 }
-.course-card{
 
-  background-color:var(--bg_default);
+select {
+  border: none;
+  font-size: 1rem;
+  padding-left: 0px;
+}
+
+.filter-by-drop-down {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+}
+
+.course-card {
+  max-width: 100%;
+  background-color: var(--bg_default);
   border-radius: 1rem;
-padding: 0.1rem;
-
+  padding: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
 }
 
-.course-title{
-font-size: 1.1rem;
-font-weight: bold;
-margin: 0;
-
-
+.card-information {
+  padding-left: 10px;
 }
 
-.course-descrip{
-  align-items: center;
-
+.rating-stars {
+  display: flex;
+  margin-top: 2rem;
 }
 
-.course-author{
+.course-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.course-descrip {
+  margin-bottom: 0;
+}
+
+.course-author {
+  margin-top: auto;
   font-size: 0.8 rem;
-color: rgb(123, 121, 121);
+  color: rgb(123, 121, 121);
+
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
