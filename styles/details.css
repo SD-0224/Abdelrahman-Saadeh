@@ -1,5 +1,5 @@
 .details-descrip-container{
-  background-color: var(--body-text);
+  background-color: #282828;
   min-width: 100vw; 
 }
 
@@ -14,11 +14,11 @@ max-width: 33rem;
 }
 
 .details-course-title{
-color: var(--bg_default);
+color: #EDEDED;
 }
 
 .details-course-descrip{
-  color: var(--bg_default);
+ color: #EDEDED;
   padding-bottom: 2rem;
 }
 
@@ -32,6 +32,7 @@ color: var(--bg_default);
   width: 60vh;
   margin-left: 18.7rem;
   margin-top: 2rem;
+  color: var(--body-text);
  
   border-radius: 10px;
 

@@ -1,0 +1,50 @@
+.favorite-img{
+  width: 100%;
+  object-fit: cover;
+  height: 60%;
+  border-radius: 5px;
+ 
+
+}
+
+.favorites-bar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color:var(--bg_default);
+  height: 30vh;
+
+}
+.favorite-topics{
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 2.7rem;
+  margin-top: 2rem;
+  color: var(--body-text);
+
+}
+.favorites-card-container{
+ display: flex;
+ margin-left: 2.7rem;
+ gap: 2vw;
+ 
+}
+.favorite-card{
+  display: flex;
+  flex-direction: column;
+  width: 23vh;
+  height: 20vh;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+ border-radius: 5px;
+
+}
+.favorite-stars{
+  display:flex;
+
+}

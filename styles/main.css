@@ -30,6 +30,7 @@ vertical-align: middle;
 
 .head-buttons {
   background-color: var(--bg_default);
+  color: var(--body-text);
   font-weight: 400;
   border-style: solid;
   border-color: rgba(170, 169, 169, 0.5);
@@ -51,6 +52,7 @@ width: 9rem;
 
 .welcome-descrip {
   font-size: 1.1rem;
+  color: var(--body-text);
   margin-top: 1px;
   font-weight: normal;
 }
@@ -60,6 +62,7 @@ width: 9rem;
 
 
 .search-icon {
+  color: var(--body-text);
 padding: 0.6rem;
   position: absolute;
   margin-left: 0.3rem;
@@ -91,6 +94,7 @@ padding: 0.6rem;
   background-color: var(--bg_default);
   width: 10rem;
   font-size: 12px;
+  color: var(--body-text);
 }
 
 select {
@@ -129,10 +133,12 @@ select {
   font-size: 1.1rem;
   font-weight: bold;
   margin: 0;
+  color: var(--body-text);
 }
 
 .course-descrip {
   margin-bottom: 0;
+  color: var(--body-text);
 }
 
 .course-author {
@@ -146,4 +152,5 @@ select {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  color: var(--body-text);
 }
