@@ -12,7 +12,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap">
   <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/project.css">
+  <link id="styles-normal" rel="stylesheet" href="styles/project.css">
   <link rel="stylesheet" href="styles/details.css">
 
   <head>
@@ -22,9 +22,10 @@
     <header class="header-bar">
       <a class="Web-topics" href="">Web Topics</a>
       <div>
-        <button class="head-buttons"><span><ion-icon class="moon-shape" name="moon-outline"></ion-icon></span> Dark
-          Mode</button>
-        <button class="head-buttons"><ion-icon class="moon-shape" name="heart-outline"></ion-icon> Favorite</button>
+        <button id="dark-mode" class="head-buttons">
+          <ion-icon id="moon-dark" class="moon-shape" name="moon-outline"></ion-icon> <span id="dark-text">Dark Mode</span>
+        </button>
+        <button id="favorite-button" class="head-buttons"><ion-icon class="moon-shape" name="heart-outline"></ion-icon> Favorite</button>
       </div>
     </header>
 
@@ -112,6 +113,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JS/darkmode.js"></script>
 
   </body>
   </html>
