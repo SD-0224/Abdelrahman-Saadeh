@@ -10,7 +10,8 @@ async function fetchCards(apiUrl=apiInfo){
     allCards = await response.json();
     console.log('response is' ,allCards );
     
-    displaycards(allCards);
+    
+    displaycards(sortAndFilter(sortDropdown.value,filterDropdown.value));
     
 }
 catch(error){
@@ -34,18 +35,20 @@ async function searchResult(){
 function sortAndFilter (sortOption , filterOption){
   let finalCards=[...allCards];
 
-  if(filterOption !== 'default'){
+  if(filterOption !== 'Default'){
     const filterOptionLower = filterOption.toLowerCase();
     finalCards = finalCards.filter(card => card.category.toLowerCase() === filterOptionLower);
 
-  }
+  } 
+  
 
   if(sortOption === 'Topic Title'){
     finalCards.sort((a,b) => a.topic.localeCompare(b.topic));
   } else if(sortOption ==='Author Name'){
     finalCards.sort((a,b) => a.name.localeCompare(b.name));
   }
-displaycards(finalCards);
+  console.log(finalCards);
+return finalCards;
 }
 
 const searchEntry = document.getElementById('search-bar');
@@ -54,11 +57,17 @@ const filterDropdown = document.getElementById('filter-by');
 filterDropdown.addEventListener('change', ()=>{
   const filterOption= filterDropdown.value;
   const sortOption=document.getElementById('sort-by').value;
-  sortAndFilter(sortOption,filterOption);
+  displaycards(sortAndFilter(sortOption,filterOption));
+
 
 });
 const sortDropdown = document.getElementById('sort-by');
-sortDropdown.addEventListener('change', sortAndFilter);
+sortDropdown.addEventListener('change', ()=>{
+  const sortOption= sortDropdown.value;
+  const filterOption=document.getElementById('filter-by').value;
+  displaycards(sortAndFilter(sortOption,filterOption));
+
+});
 
 
 fetchCards();

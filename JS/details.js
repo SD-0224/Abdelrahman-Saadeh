@@ -71,13 +71,18 @@ async function fetchDetails(){
         <div class="card-title"><p>${cardDetails.topic}</strong> by <a href="">${cardDetails.name}</a></p></div>
         <div class="favorites-box">
           <label class="button-label">Interested about this topic?</label><br>
-          <button class="favorites-button">
+          <button id="fav-button" class="favorites-button">
             Add to Favorites <span><ion-icon class="heart-card" name="heart-outline"></ion-icon></span>
           </button>
           <p class="card-footer">Unlimted Credits</p>
         </div>
       </section>
-    `
+    `;
+    const favButton = document.getElementById('fav-button');
+favButton.addEventListener('click' , ()=>{
+  alert('button is clicked')
+});
+
   }
 
   catch(error){
@@ -85,3 +90,5 @@ async function fetchDetails(){
   }
 }
 fetchDetails();
+
+
