@@ -1,0 +1,9 @@
+.searchBar{
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding-left: 2.8rem;
+  flex: 1;
+  border-color: rgba(170, 169, 169, 0.5);
+  border-width: 1px;
+  background-color: var(--bg_default);
+}

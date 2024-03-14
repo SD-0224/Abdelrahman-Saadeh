@@ -1,0 +1,21 @@
+.welcomeSec{
+  display:flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.wlecomeMsg{
+  color: var(--brand-secondary);
+  font-size: 2.2rem;
+  font: weight 700px;
+  margin-bottom: 2px;
+  margin: 0;
+
+}
+.welcomeDesc{
+  font-size: 1.1rem;
+  color: var(--body-text);
+  margin-top: 1px;
+  font-weight: normal;
+
+}
