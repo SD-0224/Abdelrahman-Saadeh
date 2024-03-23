@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Abdelrahman-Saadeh/static/css/main.b5e12a4f.css",
+    "main.js": "/Abdelrahman-Saadeh/static/js/main.f1dee6de.js",
+    "static/js/453.c44a0ee9.chunk.js": "/Abdelrahman-Saadeh/static/js/453.c44a0ee9.chunk.js",
+    "static/media/logo.svg": "/Abdelrahman-Saadeh/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Abdelrahman-Saadeh/index.html",
+    "main.b5e12a4f.css.map": "/Abdelrahman-Saadeh/static/css/main.b5e12a4f.css.map",
+    "main.f1dee6de.js.map": "/Abdelrahman-Saadeh/static/js/main.f1dee6de.js.map",
+    "453.c44a0ee9.chunk.js.map": "/Abdelrahman-Saadeh/static/js/453.c44a0ee9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5e12a4f.css",
+    "static/js/main.f1dee6de.js"
+  ]
+}
