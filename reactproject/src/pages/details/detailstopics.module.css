@@ -1,0 +1,31 @@
+.topicscontainer{
+  width: 60vh;
+  margin-left: 18.7rem;
+  margin-top: 2rem;
+  padding-inline: 5%;
+  color: var(--body-text);
+ 
+  border-radius: 10px;
+}
+.topicscontainer div{
+  padding: 0.2rem 1.2rem;
+  border-style: solid;
+  border-width: 0.05rem;
+  border-color: var(--lines-color);
+}
+.toptopic{
+  border-top-left-radius: 0.7rem;
+border-top-right-radius: 0.7rem;
+}
+.topictitle{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.checkicon{
+  color: var(--brand-secondary);
+  vertical-align: middle;
+}
+.bottomtopic{
+  border-bottom-left-radius: 0.7rem;
+border-bottom-right-radius: 0.7rem;
+}

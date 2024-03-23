@@ -1,0 +1,11 @@
+.fotr {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  color: var(--body-text);
+
+}
+.heart{
+  color: var(--heart-color);
+  vertical-align: middle;
+}

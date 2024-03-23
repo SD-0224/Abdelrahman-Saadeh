@@ -1,28 +1,20 @@
 import { Searchbar } from '../../components/shared/searchbar';
+import { Dropdown } from './dropdown';
 import styles from './searchsec.module.css';
+const sortOptions =['Default','Topic Title', 'Author Name'];
+const filterOptions = ['Default','Web Development Languages','Frontend Frameworks and Libraries',
+'Backend Frameworks and Libraries','Databases and APIs','Web Development Concepts and Technologies'
+]
 export function Searchsec(){
   return(
     <section className={styles.searchsec}>
   <Searchbar placeholder={"Search the website..."}/>
-     <div className={styles.dropdown}>
-          <label>Sort by:</label>
-          <select>
-          <option>Default</option>
-            <option>Topic Title</option>
-            <option>Author Name</option>
-          </select>
-        </div>
-        <div className={styles.dropdown}>
-          <label>Filter by:</label>
-          <select>
-          <option>Default</option>
-            <option>Web Development Languages</option>
-            <option>Frontend Frameworks and Libraries</option>
-            <option>Backend Frameworks and Libraries</option>
-            <option>Databases and APIs</option>
-            <option>Web Development Concepts and Technologies</option>
-          </select>
-        </div>
+     <Dropdown label={'Sort by'}
+     options={sortOptions}
+     />
+       <Dropdown label={'Filter by'}
+       options={filterOptions}
+       />
   </section>
   )
 

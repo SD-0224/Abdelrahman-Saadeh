@@ -1,0 +1,18 @@
+.detailcont{
+  background-color: #282828;
+  min-width: 100vw; 
+}
+.detailsdescrip{
+  margin-left: 18.7rem;
+  max-width: 33rem;
+}
+.detailscoursename{
+  color: var(--brand-secondary);
+}
+.detailscoursetitle{
+  color: var(--bg_default);
+}
+.detailscoursedescrip{
+  padding-bottom: 2rem;
+  color: var(--bg_default);
+}

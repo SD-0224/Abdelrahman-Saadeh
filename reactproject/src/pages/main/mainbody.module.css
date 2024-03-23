@@ -1,0 +1,6 @@
+.mainpage{
+  background-color: var(--bg_body);
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}

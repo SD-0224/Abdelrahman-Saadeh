@@ -1,0 +1,7 @@
+.rating{
+  display: flex;
+  margin-top: 2rem;
+}
+.str {
+  color: orange;
+}

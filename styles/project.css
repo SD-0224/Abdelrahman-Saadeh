@@ -73,7 +73,7 @@ background-color: var(--bg_default);
  border-bottom-right-radius: 0.5rem;
 }
 .search-results{
-  margin-left: 2.7rem;
+ margin-left: 2.7rem;
  margin-right: 2.7rem;
  color: var(--body-text);
 }
